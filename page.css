@@ -1,0 +1,21 @@
+body{
+    background-color:#EBEDED;
+    background-clip: padding-box;
+    margin: 35px;
+}
+
+h2{
+    font-family:"Ubuntu",sans-serif;
+    color: #EBEDED;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.principalBox{
+    background-color:#143797;
+    background-clip: padding-box;
+    border-radius: 20px;
+    margin: 35px;
+    padding: 10px;
+}
+
