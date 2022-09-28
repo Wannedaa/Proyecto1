@@ -1,49 +1,71 @@
-html{
-    margin: 0;
-    padding: 0;
+html {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color:#EBEDED;
-    margin: 0;
-    padding: 0;
+body {
+  background-color: #ebeded;
+  margin: 0;
+  padding: 0;
 }
 
-h2{
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-size: 70px;
-    text-align: center;
-    letter-spacing: 0.44em;
-    color: #FFFFFF;
+h2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0.44em;
+  color: #ffffff;
 
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.navBox{
-    background-color:#D9D9D9;
-    margin: 0px;
-    padding: 10px;
-    position: relative;
+.navBox {
+  background-color: #d9d9d9;
+  margin: 0px;
+  padding: 10px;
+  position: relative;
 }
 
 .circle {
-    background: #E14234;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin:-105px 0 0 683px;
+  background: #e14234;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -105px 0 0 683px;
 }
 
-.icon{
-    position: absolute;
-    margin: 23px 0 0 0;
-}
-.img1{
-    background: url(/image1.png);
+.icon {
+  position: absolute;
+  margin: 23px 0 0 0;
 }
 
-img{
-    width: 100%;
+a{
+  text-decoration: none;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0.44em;
+  color: #ffffff;
+}
+
+.linkContainer1{
+  background: url("image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+.linkContainer2{
+  background: url("image2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+table, th, td {
+  border: 1px solid;
+  margin: 1%;
 }
